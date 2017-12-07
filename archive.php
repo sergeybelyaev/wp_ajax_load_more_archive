@@ -4,7 +4,7 @@
 			<?php get_template_part( 'blocks/content-teaser', get_post_type() ); ?>
 		<?php endwhile; ?>
 		<?php if ( $next = get_next_posts_link( '' ) ) : ?>
-			<a class="load-more" href="<?php echo next_posts(); ?>"><?php _e( 'Load more', 'libertyfairs' ); ?></a>
+			<a class="load-more" href="<?php echo next_posts(); ?>"><?php _e( 'Load more', 'base' ); ?></a>
 		<?php endif; ?>
 	<?php endif; ?>
 <?php else: ?>
@@ -21,7 +21,7 @@
 					<?php endwhile; ?>
 				</div>
 				<?php if ( $next = get_next_posts_link( '' ) ) : ?>
-					<a class="load-more" href="<?php echo next_posts(); ?>"><?php _e( 'Load more', 'libertyfairs' ); ?></a>
+					<a class="load-more" href="<?php echo next_posts(); ?>"><?php _e( 'Load more', 'base' ); ?></a>
 				<?php endif; ?>
 			</div>
 		<?php else: ?>
